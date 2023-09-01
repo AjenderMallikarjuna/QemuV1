@@ -6,8 +6,7 @@ RUN \
   apt-get update && \
   apt-get install -y --no-install-recommends qemu-utils bridge-utils dnsmasq uml-utilities iptables wget net-tools iproute2 && \
   apt-get autoremove -y && \
-  apt-get purge -y --auto-remove && \
-  rm -rf /var/lib/apt/lists/*
+  apt-get purge -y --auto-remove
 
 
 RUN apt-get install -y \
