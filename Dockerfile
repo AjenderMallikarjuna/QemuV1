@@ -9,9 +9,6 @@ RUN \
   apt-get purge -y --auto-remove
 
 
-RUN apt-get install -y \
-    python3.8 \
-    bison \
-    flex \
+
 
 #ENTRYPOINT ["/bin/bash"]
