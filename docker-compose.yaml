@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  my_qemu:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: my_custom_qemu_image:latest
+    command: /bin/bash
